@@ -5,7 +5,7 @@ class Application
     
     if Time.now < 1200 
       resp.write "Good Morning!"
-    else if Time.now > 1200
+    else
       resp.write "Good Afternoon!"
     end 
 
